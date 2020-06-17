@@ -5,7 +5,6 @@ from selenium.webdriver import Chrome
 def step_impl(context):
     context.driver.get("https://www.thetestingworld.com/testings")
 
-
 @when(u'user enters username')
 def step_impl(context):
     context.driver.find_element_by_name("fld_username").send_keys("aashish")

@@ -1,6 +1,6 @@
 Feature: This is for registration module testing
 
-  @Smoke @Sanity
+  #@Smoke @Sanity
   Scenario: Registration using valid data
        Given user is on Registration page
        When  user enters username
@@ -9,7 +9,7 @@ Feature: This is for registration module testing
        And   user click on sign up button
        Then  user should get registered sucessfully
 
-  @Regression @Smoke
+  #@Regression @Smoke
   Scenario: Registration using duplicate data
        Given user is on Registration page
        When  user enters duplicate username
@@ -18,7 +18,7 @@ Feature: This is for registration module testing
        And   user click on sign up button
        Then  user should get registered sucessfully
 
-  @Test
+
   Scenario: Registration using duplicate data
        Given user is on Registration page
        When  user enters duplicate username
