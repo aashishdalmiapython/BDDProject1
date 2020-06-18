@@ -14,3 +14,4 @@ driver.find_element_by_name("_txtPassword").send_keys("test")
 driver.find_element_by_xpath("//div[@class='btn']/input[2][@value='Login']").click()
 welcome = driver.find_element_by_xpath("//div[@id='navbar-brand-centered']/ul/li[6]/a").text
 print(welcome)
+print("Project setup")
